@@ -1,0 +1,490 @@
+{
+	"info": {
+		"_postman_id": "fb10467c-c97c-423c-88a3-65ed8e314893",
+		"name": "Unimed homologação",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24129356"
+	},
+	"item": [
+		{
+			"name": "Lucia 2ª via - HOMOLOGAÇÃO",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghSD1Jr-2rGy-IDhv9BnGMUS9KwKrAlDi7lDdEH96qWv",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "apikey",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Cache-Control",
+						"type": "text",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"type": "text",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Host",
+						"type": "text",
+						"value": "api.us-south.assistant.watson.cloud.ibm.com"
+					},
+					{
+						"key": "Postman-Token",
+						"type": "text",
+						"value": "d67369d2-5546-4297-b149-9c598ae6dfcb,fecb7cb7-33e7-4be3-b162-9d91ed645d81"
+					}
+				],
+				"url": {
+					"raw": "https://api.us-south.assistant.watson.cloud.ibm.com/instances/0a8359ec-7217-44a0-b92f-148ce1d992c1/v1/workspaces/17c398dc-a14f-4ef6-b624-148dc76b9cdb/logs?version=2019-02-28&sort=request_timestamp&filter=response.context.conversation_id::7813bd8b-546d-499e-bd1b-edf6fcc92cf1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"us-south",
+						"assistant",
+						"watson",
+						"cloud",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"instances",
+						"0a8359ec-7217-44a0-b92f-148ce1d992c1",
+						"v1",
+						"workspaces",
+						"17c398dc-a14f-4ef6-b624-148dc76b9cdb",
+						"logs"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "2019-02-28"
+						},
+						{
+							"key": "sort",
+							"value": "request_timestamp"
+						},
+						{
+							"key": "filter",
+							"value": "response.context.conversation_id::7813bd8b-546d-499e-bd1b-edf6fcc92cf1"
+						},
+						{
+							"key": "filter",
+							"value": "request.input.text::\"luc1@_\"",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lucia Recepção - HOMOLOGAÇÃO",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghSD1Jr-2rGy-IDhv9BnGMUS9KwKrAlDi7lDdEH96qWv",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "apikey",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Cache-Control",
+						"type": "text",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"type": "text",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Host",
+						"type": "text",
+						"value": "api.us-south.assistant.watson.cloud.ibm.com"
+					},
+					{
+						"key": "Postman-Token",
+						"type": "text",
+						"value": "d67369d2-5546-4297-b149-9c598ae6dfcb,fecb7cb7-33e7-4be3-b162-9d91ed645d81"
+					}
+				],
+				"url": {
+					"raw": "https://api.us-south.assistant.watson.cloud.ibm.com/instances/0a8359ec-7217-44a0-b92f-148ce1d992c1/v1/workspaces/fa978eae-862e-4757-a64b-b6ca7ca942df/logs?version=2019-02-28&sort=request_timestamp&filter=response.context.conversation_id::1ecc8fb9-a6a9-4849-817b-d740467876e5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"us-south",
+						"assistant",
+						"watson",
+						"cloud",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"instances",
+						"0a8359ec-7217-44a0-b92f-148ce1d992c1",
+						"v1",
+						"workspaces",
+						"fa978eae-862e-4757-a64b-b6ca7ca942df",
+						"logs"
+					],
+					"query": [
+						{
+							"key": "cursor",
+							"value": "dOfVSuh6fBpAb63e1ttKdKuXhVnah0p6S1AwpyVCpYp3n3l8dXy7DL9AYH8dv+Z9fTdDSf9wY9DCfENKrWgIL81TTuD4Td/JE2cq1Qdfrev6AgotQGGSKUa6WW4+qBRHwIKmIRNhffVUsBV+9qrLPns/+kahcYbZck6lbT2EEm1Z26UqsHrOVi4ldm/naDB81CIGNIhbBDrEzmvmDcJpCELUL4kpmkyxUAA31PMZLpBugiMw34XsOFBR7hP1+yfvBmd1kQDFzetCXyp4uA4kzzNenYK7YnPwG7cDXb2/zD5fzVugYNLdYNWnQcXEe6X0gCnqRnD+nL0HJ1YsfQoTpCdg3tUwgWoKGAL8l7rY/DzH/WxFKzieIwfODzKBpQsRp7rLIz3E9cwq1rn22mZ/bZBQ8mWF9rDnEz7+CQ85IbRtssCD6cEB2PnYcAGff1Ob/6t+iq1mPGd4wEyP5kBMhBW82guSS4yiLiYv2zYrlfaf+wTyFm4ER6qJCsIB1yz7wnYYtz2muFxQZUx3QjIPMC0oWDWwbCDBTVg8YIMllZl7tPM63TGpPw8vbs/mMkZ3QBoWsEyiMkd7TJ6N/Vjkz3ticBy9aJgzcMzlEHOY+GDziWTyOX2MjxS5LJFHZymCkaAYWqxs7K91sc5YATmdF8NYXPxXeVAmB3yGgZw733B9DkSstoXCHvsO1Sj0jcVwv/B0Z3GrVG89usp3Xf1rUQqeUIDbsSvTJuL4in20p/7+SsvGNXpj7IPsp+nEh+VfLz34Ful5h9LiFCF4NSrdHIl7+ZRQsCdWguMYIH9mkG3vJL+7yKr69S0YS/VYmE1t2tLEKrqaGn3FnUaeK7iNUPmPB+Y6gCj86rFWJHXsreo/iecTiox3iTb7A0L6yEljqnw6QKDWez9ZRRgs5r9/U62m/IwC8QBzEG8TGGInVRyt6yQbjBCdDGu/H7+Tuf/Ookfgf8goCCyIClypZVJsIFTR3fwXFBW3FF4siCZiPs4lJ57szQYXdkl0CcqSym9CvhrjZ+TUFWiSpggd3G287DrIs72nXkF/vW8WuKNMXqo7IhO+y6d/T3/58blFywZCGnlBhOH+FgWZ7jNQbtYp5lb5XtltddpZqzTq1mWxPtFF5dZiV5vGA1ivmjBa+SVewvLkbhfvh+mgGx5t5Q+VUfWxcG0jBCBhY5rrh2qqliuHpBdVhPIgzjZP2+fE/v5D1hyLYJCRh7GvHNohulD6BfunF1GYko3imVnV1BR6UE/EL3GhzjF+9w==",
+							"disabled": true
+						},
+						{
+							"key": "version",
+							"value": "2019-02-28"
+						},
+						{
+							"key": "sort",
+							"value": "request_timestamp"
+						},
+						{
+							"key": "filter",
+							"value": "response.context.conversation_id::1ecc8fb9-a6a9-4849-817b-d740467876e5"
+						},
+						{
+							"key": "filter",
+							"value": "response.output.text::\"30470120191120000102\"",
+							"disabled": true
+						},
+						{
+							"key": "filter",
+							"value": "request.input.text::\"luc1@_\"",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lucia Covid - HOMOLOGAÇÃO",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghSD1Jr-2rGy-IDhv9BnGMUS9KwKrAlDi7lDdEH96qWv",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "apikey",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Cache-Control",
+						"type": "text",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"type": "text",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Host",
+						"type": "text",
+						"value": "api.us-south.assistant.watson.cloud.ibm.com"
+					},
+					{
+						"key": "Postman-Token",
+						"type": "text",
+						"value": "d67369d2-5546-4297-b149-9c598ae6dfcb,fecb7cb7-33e7-4be3-b162-9d91ed645d81"
+					}
+				],
+				"url": {
+					"raw": "https://api.us-south.assistant.watson.cloud.ibm.com/instances/0a8359ec-7217-44a0-b92f-148ce1d992c1/v1/workspaces/db7e0934-6ec1-40bc-9624-762700de8e64/logs?version=2019-02-28&sort=request_timestamp&filter=response.context.conversation_id::6319cdbe-4c47-4229-9870-04ffbcd88229",
+					"protocol": "https",
+					"host": [
+						"api",
+						"us-south",
+						"assistant",
+						"watson",
+						"cloud",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"instances",
+						"0a8359ec-7217-44a0-b92f-148ce1d992c1",
+						"v1",
+						"workspaces",
+						"db7e0934-6ec1-40bc-9624-762700de8e64",
+						"logs"
+					],
+					"query": [
+						{
+							"key": "cursor",
+							"value": "dOfVSuh6fBpAb63e1ttKdKuXhVnah0p6S1AwpyVCpYp3n3l8dXy7DL9AYH8dv+Z9fTdDSf9wY9DCfENKrWgIL81TTuD4Td/JE2cq1Qdfrev6AgotQGGSKUa6WW4+qBRHwIKmIRNhffVUsBV+9qrLPns/+kahcYbZck6lbT2EEm1Z26UqsHrOVi4ldm/naDB81CIGNIhbBDrEzmvmDcJpCELUL4kpmkyxUAA31PMZLpBugiMw34XsOFBR7hP1+yfvBmd1kQDFzetCXyp4uA4kzzNenYK7YnPwG7cDXb2/zD5fzVugYNLdYNWnQcXEe6X0gCnqRnD+nL0HJ1YsfQoTpCdg3tUwgWoKGAL8l7rY/DzH/WxFKzieIwfODzKBpQsRp7rLIz3E9cwq1rn22mZ/bZBQ8mWF9rDnEz7+CQ85IbRtssCD6cEB2PnYcAGff1Ob/6t+iq1mPGd4wEyP5kBMhBW82guSS4yiLiYv2zYrlfaf+wTyFm4ER6qJCsIB1yz7wnYYtz2muFxQZUx3QjIPMC0oWDWwbCDBTVg8YIMllZl7tPM63TGpPw8vbs/mMkZ3QBoWsEyiMkd7TJ6N/Vjkz3ticBy9aJgzcMzlEHOY+GDziWTyOX2MjxS5LJFHZymCkaAYWqxs7K91sc5YATmdF8NYXPxXeVAmB3yGgZw733B9DkSstoXCHvsO1Sj0jcVwv/B0Z3GrVG89usp3Xf1rUQqeUIDbsSvTJuL4in20p/7+SsvGNXpj7IPsp+nEh+VfLz34Ful5h9LiFCF4NSrdHIl7+ZRQsCdWguMYIH9mkG3vJL+7yKr69S0YS/VYmE1t2tLEKrqaGn3FnUaeK7iNUPmPB+Y6gCj86rFWJHXsreo/iecTiox3iTb7A0L6yEljqnw6QKDWez9ZRRgs5r9/U62m/IwC8QBzEG8TGGInVRyt6yQbjBCdDGu/H7+Tuf/Ookfgf8goCCyIClypZVJsIFTR3fwXFBW3FF4siCZiPs4lJ57szQYXdkl0CcqSym9CvhrjZ+TUFWiSpggd3G287DrIs72nXkF/vW8WuKNMXqo7IhO+y6d/T3/58blFywZCGnlBhOH+FgWZ7jNQbtYp5lb5XtltddpZqzTq1mWxPtFF5dZiV5vGA1ivmjBa+SVewvLkbhfvh+mgGx5t5Q+VUfWxcG0jBCBhY5rrh2qqliuHpBdVhPIgzjZP2+fE/v5D1hyLYJCRh7GvHNohulD6BfunF1GYko3imVnV1BR6UE/EL3GhzjF+9w==",
+							"disabled": true
+						},
+						{
+							"key": "version",
+							"value": "2019-02-28"
+						},
+						{
+							"key": "sort",
+							"value": "request_timestamp"
+						},
+						{
+							"key": "filter",
+							"value": "response.context.conversation_id::6319cdbe-4c47-4229-9870-04ffbcd88229"
+						},
+						{
+							"key": "filter",
+							"value": "response.output.text::\"30470120191120000102\"",
+							"disabled": true
+						},
+						{
+							"key": "filter",
+							"value": "request.input.text::\"luc1@_\"",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lucia Liberações - HOMOLOGAÇÃO",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghSD1Jr-2rGy-IDhv9BnGMUS9KwKrAlDi7lDdEH96qWv",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "apikey",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Cache-Control",
+						"type": "text",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"type": "text",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Host",
+						"type": "text",
+						"value": "api.us-south.assistant.watson.cloud.ibm.com"
+					},
+					{
+						"key": "Postman-Token",
+						"type": "text",
+						"value": "d67369d2-5546-4297-b149-9c598ae6dfcb,fecb7cb7-33e7-4be3-b162-9d91ed645d81"
+					}
+				],
+				"url": {
+					"raw": "https://api.us-south.assistant.watson.cloud.ibm.com/instances/0a8359ec-7217-44a0-b92f-148ce1d992c1/v1/workspaces/7c676827-7ad5-462b-b242-1f0124ee5fa6/logs?version=2019-02-28&sort=request_timestamp&filter=response.context.conversation_id::2eea9281-a1c5-40dd-b8ef-92306c3fdada",
+					"protocol": "https",
+					"host": [
+						"api",
+						"us-south",
+						"assistant",
+						"watson",
+						"cloud",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"instances",
+						"0a8359ec-7217-44a0-b92f-148ce1d992c1",
+						"v1",
+						"workspaces",
+						"7c676827-7ad5-462b-b242-1f0124ee5fa6",
+						"logs"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "2019-02-28"
+						},
+						{
+							"key": "sort",
+							"value": "request_timestamp"
+						},
+						{
+							"key": "filter",
+							"value": "response.context.conversation_id::2eea9281-a1c5-40dd-b8ef-92306c3fdada"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lucia Liberações - HOMOLOGAÇÃO TESTE",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghSD1Jr-2rGy-IDhv9BnGMUS9KwKrAlDi7lDdEH96qWv",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "apikey",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Cache-Control",
+						"type": "text",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"type": "text",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Host",
+						"type": "text",
+						"value": "api.us-south.assistant.watson.cloud.ibm.com"
+					},
+					{
+						"key": "Postman-Token",
+						"type": "text",
+						"value": "d67369d2-5546-4297-b149-9c598ae6dfcb,fecb7cb7-33e7-4be3-b162-9d91ed645d81"
+					}
+				],
+				"url": {
+					"raw": "https://api.us-south.assistant.watson.cloud.ibm.com/instances/0a8359ec-7217-44a0-b92f-148ce1d992c1/v1/workspaces/7c676827-7ad5-462b-b242-1f0124ee5fa6/logs?version=2019-02-28&sort=request_timestamp&filter=response.context.conversation_id::2eea9281-a1c5-40dd-b8ef-92306c3fdada",
+					"protocol": "https",
+					"host": [
+						"api",
+						"us-south",
+						"assistant",
+						"watson",
+						"cloud",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"instances",
+						"0a8359ec-7217-44a0-b92f-148ce1d992c1",
+						"v1",
+						"workspaces",
+						"7c676827-7ad5-462b-b242-1f0124ee5fa6",
+						"logs"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "2019-02-28"
+						},
+						{
+							"key": "sort",
+							"value": "request_timestamp"
+						},
+						{
+							"key": "filter",
+							"value": "response.context.conversation_id::2eea9281-a1c5-40dd-b8ef-92306c3fdada"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

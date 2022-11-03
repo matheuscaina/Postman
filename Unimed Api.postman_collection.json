@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "0ed3ac39-30df-4728-8ed8-f92f15adfd83",
+		"name": "Unimed Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24129356"
+	},
+	"item": [
+		{
+			"name": "conversation_hom",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://acc-integra.softmarketing.com.br/unimed_hom/conversation?dt_inicial=2022-07-01&dt_final=2022-07-18&page=0&search=",
+					"protocol": "https",
+					"host": [
+						"acc-integra",
+						"softmarketing",
+						"com",
+						"br"
+					],
+					"path": [
+						"unimed_hom",
+						"conversation"
+					],
+					"query": [
+						{
+							"key": "dt_inicial",
+							"value": "2022-07-01"
+						},
+						{
+							"key": "dt_final",
+							"value": "2022-07-18"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "search",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mensagens_hom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://acc-integra.softmarketing.com.br/unimed_hom/message?conversation_id=2ef8c4a0-3dba-11ed-9043-4b904d3cf089",
+					"protocol": "https",
+					"host": [
+						"acc-integra",
+						"softmarketing",
+						"com",
+						"br"
+					],
+					"path": [
+						"unimed_hom",
+						"message"
+					],
+					"query": [
+						{
+							"key": "conversation_id",
+							"value": "2ef8c4a0-3dba-11ed-9043-4b904d3cf089"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "conversation_prod",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://integra.softmarketing.com.br/unimed_prod/conversation?dt_inicial=2021-12-01&dt_final=2021-12-31",
+					"protocol": "https",
+					"host": [
+						"integra",
+						"softmarketing",
+						"com",
+						"br"
+					],
+					"path": [
+						"unimed_prod",
+						"conversation"
+					],
+					"query": [
+						{
+							"key": "dt_inicial",
+							"value": "2021-12-01"
+						},
+						{
+							"key": "dt_final",
+							"value": "2021-12-31"
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "Exames em análise - Telefone Abandonado - Envio de anexo da guia",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mensagens_prod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://integra.softmarketing.com.br/unimed_prod/message?conversation_id=e7a23ec0-4029-11ed-b303-4de8d5ba0e5c",
+					"protocol": "https",
+					"host": [
+						"integra",
+						"softmarketing",
+						"com",
+						"br"
+					],
+					"path": [
+						"unimed_prod",
+						"message"
+					],
+					"query": [
+						{
+							"key": "conversation_id",
+							"value": "e7a23ec0-4029-11ed-b303-4de8d5ba0e5c"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
